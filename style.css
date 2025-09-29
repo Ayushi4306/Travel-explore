@@ -1,0 +1,41 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: lab(rgb(37, 150, 190));
+  color: hsl(233, 96%, 18%);
+  line-height: 1.6;
+}
+
+/* Header & Navigation */
+header {
+  background: linear-gradient(to right, hsl(200, 80%, 30%), hsl(180, 70%, 40%));
+  padding: 1rem;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+  margin: auto;
+  background-color: #87c4e3;
+}
+nav h1 {
+  color: #0a58b2;
+  font-size: 1.8rem;
+}
+nav a {
+  color: #0a58b2;
+  text-decoration: none;
+  margin-left: 20px;
+  transition: color 0.3s;
+}
+nav a:hover {
+  color: hsl(45, 100%, 70%);
+
+
+ 
